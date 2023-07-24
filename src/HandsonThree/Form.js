@@ -3,19 +3,18 @@ import DisplayForm from './DisplayForm';
 import '../index.css';
 
 
-class Form extends Component {
-    constructor() {
-        super();
-        this.state = {
-            Name: '',
-            Rate: '',
-            Dept: '',
-            clicked: true,
-            EmpData: [],
-            formError: '',
-        };
-    }
+class Form extends Component {{
+    this.state = {
+        Name: '',
+        Rate: '',
+        Dept: '',
+        clicked: true,
+        EmpData: [],
+        formError: '',
+    };
 
+}
+      
     changeHandler = (e) => {
         this.setState({ [e.target.name]: e.target.value });
     };
